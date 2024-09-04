@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    
+    <style>
+        .sidemenu{
+            height: 100%;
+            width: 150px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+        }
+
+        .sidemenu a{
+            padding:6px;
+            color:aqua;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            text-decoration: none;
+            display: block;
+        }
+
+        body {  
+            background: linear-gradient(to right, rgb(224, 215, 45), rgb(39, 187, 228)); 
+        }
+
+        .home{
+            border: 5px solid navy;
+            border-radius: 25px;
+            background-color: aliceblue;
+            margin-left: 150px;
+            padding: 20px;
+        }
+
+        .aboutme{
+            border: 5px solid lightskyblue;
+            border-radius: 25px;
+            background-color: aliceblue;
+            margin-left: 150px;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .favholiday{
+            border: 5px solid rgb(241, 194, 74);
+            border-radius: 25px;
+            background-color: aliceblue;
+            margin-left: 150px;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .dumbdumb{
+            margin-top: 20px;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.81); 
+            transition: color 0.3s;
+        }
+
+        .dumbdumb a{
+            text-decoration: none; 
+            color: rgba(255, 255, 255, 0.81);
+            transition: color 0.3s;
+        }
+
+        .dumbdumb:hover,.dumbdumb a:hover{
+            color: black
+        }
+
+    </style>
+</head>
+<body>
+    <!-- sidemenu code css above-->
+    <div class="sidemenu">
+        <a href="#home">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#favholiday">Fav travel dest</a>
+    </div>
+    
+    <div class='home'>
+        <h1 id="home">
+            Home
+        </h1>
+        <p>
+            Hi! I am Wei Shen. Nice to meet you!
+        </p>
+    </div>
+
+    <div class='aboutme'>
+        <h1 id="aboutme">
+            About Me
+        </h1>
+        <p>
+            <ul>
+                <li>
+                    Honestly, idk what im doing now
+                </li>
+                <li>
+                    idk how style this?!
+                </li>
+                <li>
+                    i guess i will js share my favourite travel destination below
+                </li>
+            </ul>
+            <img src="me.png" width='100px' height='100px'></img>
+        </p>
+    </div>
+
+    <div class='favholiday'>
+        <h1 id="favholiday">
+            Favourite Holiday Destination
+        </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Pbzn79TSRO0?si=kiPMeTvjDp2dxcqM&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <p class="dumbdumb">
+            Although i say its my fav holiday dest i got scammed when i went thr in 2016 cos it was <a href='https://icelandmonitor.mbl.is/news/nature_and_travel/2016/12/07/early_december_warmest_in_iceland_since_records_beg/' target="_blank">recorded hottest Dec since 100++ yrs.</a>
+            <br>
+            Everything was melting... inclding ice caves... all activities cancelled rip... :/ 
+            <br>
+            No northern lights oso...
+            <br>
+            ok i spent too much time doing this alr cos i dumb 
+            <br>
+            (cant figure out how to see everything when i hover over this text, the a href part doesnt come out until i hover there rip)
+        </p>
+    </div>
+</body>
+</html>
