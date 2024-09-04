@@ -8,21 +8,42 @@
     <style>
         .sidemenu{
             height: 100%;
-            width: 150px;
+            width: 200px;
             position: fixed;
             top: 0;
             left: 0;
-            background-color: #333;
+            background-color: #2c3e50;
             padding-top: 20px;
+        }
+
+        .sidebar-pic {
+            text-align: center;
+            margin-bottom: 10px;
+            color:beige
+        }
+
+        .sidebar-pic img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
         }
 
         .sidemenu a{
             padding:6px;
-            color:aqua;
-            font-family: 'Courier New', Courier, monospace;
+            color:white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 20px;
             text-decoration: none;
             display: block;
+            transition: background-color 0.3s;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .sidemenu a:hover{
+            background-color: rgb(121, 0, 0);
+
         }
 
         body {  
@@ -33,7 +54,7 @@
             border: 5px solid navy;
             border-radius: 25px;
             background-color: aliceblue;
-            margin-left: 150px;
+            margin-left: 200px;
             padding: 20px;
         }
 
@@ -41,7 +62,7 @@
             border: 5px solid lightskyblue;
             border-radius: 25px;
             background-color: aliceblue;
-            margin-left: 150px;
+            margin-left: 200px;
             padding: 20px;
             margin-top: 50px;
         }
@@ -50,7 +71,7 @@
             border: 5px solid rgb(241, 194, 74);
             border-radius: 25px;
             background-color: aliceblue;
-            margin-left: 150px;
+            margin-left: 200px;
             padding: 20px;
             margin-top: 50px;
         }
@@ -77,6 +98,10 @@
 <body>
     <!-- sidemenu code css above-->
     <div class="sidemenu">
+        <div class="sidebar-pic">
+            <img src="me.png"></img>
+            <h2>Wei Shen</h2>
+        </div>
         <a href="#home">Home</a>
         <a href="#aboutme">About Me</a>
         <a href="#favholiday">Fav travel dest</a>
@@ -98,16 +123,18 @@
         <p>
             <ul>
                 <li>
-                    Honestly, idk what im doing now
+                    yr 2 IS student 
                 </li>
                 <li>
-                    idk how style this?!
+                    22 yr old
+                </li>
+                <li>
+                    Honestly, idk what im doing now
                 </li>
                 <li>
                     i guess i will js share my favourite travel destination below
                 </li>
             </ul>
-            <img src="me.png" width='100px' height='100px'></img>
         </p>
     </div>
 
